@@ -33,6 +33,7 @@ player.onChat("wieża", function () {
         agent.place(DOWN)
         agent.move(FORWARD, 1)
         agent.turn(LEFT_TURN)
+        // test
     }
     agent.teleport(world(-45, 6, 36), WEST)
     oknox3()
